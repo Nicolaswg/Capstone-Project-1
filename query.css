@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,700;1,900&display=swap');
+@import url(//db.onlinewebfonts.com/c/b4e46f03d0e03a9192dc3c2ad1a4e104?family=Cocogoose);
+
+:root {
+  --titles-color: #ec5242;
+  --font-family: "Cocogoose";
+  --number-family: "Lato";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(src/greta-t-Q9C3QKDUP7M-unsplash.jpg);
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+}
+
+.fas.fa-bars {
+  color: var(--titles-color);
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.home-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.titles-container {
+  width: 480px;
+  margin: 0.9rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-subtitle {
+  color: var(--titles-color);
+  font-family: var(--font-family),sans-serif;
+  font-weight: 200;
+}
+
+.home-title {
+  color: var(--titles-color);
+  font-family: var(--number-family),sans-serif;
+  font-size: 3.5rem;
+}
+
+.numbers {
+  font-family: sans-serif;
+}
