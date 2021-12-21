@@ -17,6 +17,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar {
   display: flex;
   width: 100%;
@@ -38,11 +42,12 @@
 
 .home-container {
   width: 100vw;
+  padding-bottom: 50px;
   display: flex;
   flex-direction: column;
   background: url(src/jean-luc-catarin-0TH0YGKS1iU-unsplash.jpg);
   background-size: cover;
-  background-position-y: -20px;
+  background-position: center center;
 }
 
 .titles-container {
@@ -230,4 +235,107 @@
   font-family: var(--font-family);
   font-size: 1.15rem;
   color: var(--color-white);
+}
+
+.speaker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+
+.main-title-b {
+  font-family: var(--font-family);
+  color: var(--font-color);
+  font-size: 1.5rem;
+}
+
+.speaker-outfit-container {
+  display: flex;
+  width: 92%;
+  height: 150px;
+}
+
+.speaker-description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 5px;
+  gap: 10px;
+}
+
+.speaker-name {
+  font-size: 1.4rem;
+  font-family: var(--font-family);
+}
+
+.speaker-subtitle {
+  font-size: 0.9rem;
+  font-family: var(--number-family);
+  color: var(--titles-color);
+}
+
+.speaker-description {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  font-family: var(--number-family);
+  color: var(--font-color);
+}
+
+.menu-bg {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  background-color: rgba(211, 211, 211, 0.5);
+}
+
+.fas.fa-times {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 1.8rem;
+  color: rgb(102, 101, 101);
+  cursor: pointer;
+}
+
+.menu {
+  width: 75%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ec5342d0;
+  transition: all 500ms ease;
+}
+
+.links-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  margin-top: -50px;
+  flex-direction: column;
+  gap: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-size: 1.5rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.links a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+.off-menu {
+  display: none;
 }

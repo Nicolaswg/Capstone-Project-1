@@ -13,12 +13,12 @@
   <header>
     <!-- Project Navbar -->
     <nav class="navbar">
-      <a aria-label="menu" href="#home" class="hamburger-menu"><i class="fas fa-bars"></i></a>
+      <a aria-label="menu" href="#home" class="hamburger-menu"><i id="menu-btn" class="fas fa-bars"></i></a>
     </nav>
   </header>
 <!-- Project Home Section -->
 <section id="home">
-  <div class="home-container">
+  <div id="home-section" class="home-container">
     <div class="titles-container">
       <h3 class="home-subtitle">"Looking Good, Feeling Good!"</h3>
       <h1 class="home-title">CREATIVE GLOBAL OUTFIT <span class="numbers">2022</span></h1>
@@ -35,7 +35,7 @@
 <!-- Porject Main Section -->
 <section id="main">
   <!-- First Card -->
-  <div class="main-container">
+  <div id="main-section" class="main-container">
     <div class="main-title-container">
       <h4 class="main-title">Outfit Catalogue</h4>
       <div class="line"></div>
@@ -104,6 +104,33 @@
     </div>
   </div>
 </section>
+<!-- Project speaker section -->
+<section id="speaker">
+  <div id="speaker-section" class="speaker-container">
+    <div class="main-title-container">
+      <h4 class="main-title-b">Outfit Speakers</h4>
+      <div class="line"></div>
+      </div>
+      <div class="speaker-outfit-container">
+        <img src="src/Gianni-Versace1.jpg" alt="speaker">
+        <div class="speaker-description-container">
+          <h4 class="speaker-name">Gianni Versace</h4>
+          <p class="speaker-subtitle">renowned designer of Italian haute couture founder of the Versace brand</p>
+          <p class="speaker-description">'Decide what you are, what you want to express with the way you dress and the way you live' <i>(Gianni Versace)</i></p>
+        </div>
+      </div>
+  </div>
+</section>
+<div class="menu-bg off-menu">
+  <i class="fas fa-times"></i>
+</div>
+  <div class="menu off-menu">
+    <ul class="links-container">
+      <li class="links"><a href="#home-section">Home</a></li>
+      <li class="links"><a href="#main-section">Catologue</a></li>
+      <li class="links"><a href="#speaker-section">Speakers</a></li>
+    </ul>
+</div>
 <script src="main.js"></script>
 </body>
 </html>
