@@ -4,6 +4,10 @@
 :root {
   --titles-color: #ec5242;
   --font-family: "Cocogoose";
+  --font-color: #272a31;
+  --color-white: rgb(255, 255, 255);
+  --color-gray: #d3d3d3;
+  --color-cards: rgba(211, 211, 211,0.2);
   --number-family: "Lato";
 }
 
@@ -13,15 +17,15 @@
   box-sizing: border-box;
 }
 
-body {
-  background: url(src/greta-t-Q9C3QKDUP7M-unsplash.jpg);
-  background-size: cover;
-}
-
 .navbar {
   display: flex;
   width: 100%;
   padding: 1rem;
+}
+
+.hamburger-menu {
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .fas.fa-bars {
@@ -36,28 +40,178 @@ body {
   width: 100vw;
   display: flex;
   flex-direction: column;
+  background: url(src/jean-luc-catarin-0TH0YGKS1iU-unsplash.jpg);
+  background-size: cover;
+  background-position-y: -20px;
 }
 
 .titles-container {
-  width: 480px;
-  margin: 0.9rem;
-  background-color: #fff;
+  margin: 0.9rem 0.9rem 0 0.9rem;
   display: flex;
   flex-direction: column;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
 }
 
 .home-subtitle {
+  padding-top: 10px;
   color: var(--titles-color);
   font-family: var(--font-family),sans-serif;
-  font-weight: 200;
+  font-weight: 100;
 }
 
 .home-title {
-  color: var(--titles-color);
+  color: transparent;
   font-family: var(--number-family),sans-serif;
   font-size: 3.5rem;
+  font-weight: 700;
+  background-image: url(src/text-background.jpg);
+  background-size: cover;
+
+  background-position-y: center;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .numbers {
-  font-family: sans-serif;
+  font-family: var(--number-family),sans-serif;
+}
+
+.home-description-container {
+  margin: 0 0.9rem 0 0.9rem;
+  padding: 20px 20px 20px 20px;
+  background-color: var();
+}
+
+.home-description {
+  border-radius: 2px;  
+  padding: 10px;
+  font-size: 0.75rem;
+  font-weight: 100;
+  background-color: var(--color-gray);
+  font-family: var(--font-family),sans-serif;
+  color: var(--font-color);
+}
+
+.home-description-date {
+  margin: 0.9rem 0.9rem 0 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 80px;
+}
+
+.description-date {
+  color: var(--titles-color);
+  font-family: var(--number-family);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.description-reference {
+  color: var(--titles-color);
+  font-family: var(--font-family);
+  margin-top: 20px;
+}
+
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(src/backgroundb.jpg);
+  background-size: cover;
+  gap: 10px;
+}
+
+.main-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  padding: 0.8rem
+}
+
+.main-title {
+  font-family: var(--font-family);
+  color: var(--color-white);
+  font-size: 1.5rem;
+}
+
+.line {
+  width: 80px;
+  height: 2px;
+  background-color: var(--titles-color);
+}
+
+.main-card-container { 
+  width: 85%;
+  padding: 1.5rem;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-cards);
+  border-radius: 5px;
+}
+
+.card-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+
+.fas.fa-venus {
+  color: var(--color-white);
+  font-size: 2.5rem;
+}
+
+.fas.fa-mars {
+  color: var(--color-white);
+  font-size: 2.5rem;
+}
+
+.fas.fa-star {
+  color: var(--color-white);
+  font-size: 2rem;
+}
+
+.fas.fa-dumbbell {
+  color: var(--color-white);
+  font-size: 2rem;
+}
+
+.fas.fa-info-circle {
+  color: var(--color-white);
+  font-size: 2rem;
+}
+
+.card-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+
+.card-title{
+  color: var(--titles-color);
+  font-family: var(--number-family), sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.card-description-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.card-description {
+  font-size: 1.1rem;
+  color: var(--color-white);
+  font-family: var(--number-family);
 }
