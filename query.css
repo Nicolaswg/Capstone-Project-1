@@ -88,7 +88,7 @@
   padding: 10px;
   font-size: 0.75rem;
   font-weight: 100;
-  background-color: var(--color-gray);
+  background-color: rgba(211, 211, 211,0.6);
   font-family: var(--font-family),sans-serif;
   color: var(--font-color);
 }
@@ -102,14 +102,14 @@
 }
 
 .description-date {
-  color: var(--titles-color);
+  color: var(--color-gray);
   font-family: var(--number-family);
   font-size: 2rem;
   font-weight: 700;
 }
 
 .description-reference {
-  color: var(--titles-color);
+  color: var(--color-gray);
   font-family: var(--font-family);
   margin-top: 20px;
 }
