@@ -21,6 +21,11 @@ html {
   scroll-behavior: smooth;
 }
 
+img {
+  width: 150px;
+  height: 150px;
+}
+
 .navbar {
   display: flex;
   width: 100%;
@@ -291,6 +296,7 @@ html {
   top: 0;
   right: 0;
   background-color: rgba(211, 211, 211, 0.5);
+  transition: all 500ms ease;
 }
 
 .fas.fa-times {
@@ -298,7 +304,7 @@ html {
   top: 20px;
   right: 20px;
   font-size: 1.8rem;
-  color: rgb(102, 101, 101);
+  color: rgb(68, 67, 67);
   cursor: pointer;
 }
 
