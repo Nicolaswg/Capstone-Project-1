@@ -7,7 +7,7 @@
   --font-color: #272a31;
   --color-white: rgb(255, 255, 255);
   --color-gray: #d3d3d3;
-  --color-cards: rgba(211, 211, 211,0.2);
+  --color-cards: rgba(211, 211, 211, 0.2);
   --number-family: "Lato";
 }
 
@@ -56,40 +56,37 @@
 .home-subtitle {
   padding-top: 10px;
   color: var(--titles-color);
-  font-family: var(--font-family),sans-serif;
+  font-family: var(--font-family), sans-serif;
   font-weight: 100;
 }
 
 .home-title {
   color: transparent;
-  font-family: var(--number-family),sans-serif;
+  font-family: var(--number-family), sans-serif;
   font-size: 3.5rem;
   font-weight: 700;
   background-image: url(src/text-background.jpg);
   background-size: cover;
-
   background-position-y: center;
   -webkit-background-clip: text;
-  background-clip: text;
 }
 
 .numbers {
-  font-family: var(--number-family),sans-serif;
+  font-family: var(--number-family), sans-serif;
 }
 
 .home-description-container {
   margin: 0 0.9rem 0 0.9rem;
   padding: 20px 20px 20px 20px;
-  background-color: var();
 }
 
 .home-description {
-  border-radius: 2px;  
+  border-radius: 2px;
   padding: 10px;
   font-size: 0.75rem;
   font-weight: 100;
-  background-color: rgba(211, 211, 211,0.6);
-  font-family: var(--font-family),sans-serif;
+  background-color: rgba(211, 211, 211, 0.6);
+  font-family: var(--font-family), sans-serif;
   color: var(--font-color);
 }
 
@@ -122,6 +119,7 @@
   background: url(src/backgroundb.jpg);
   background-size: cover;
   gap: 10px;
+  padding-bottom: 20px;
 }
 
 .main-title-container {
@@ -131,7 +129,7 @@
   justify-content: center;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-  padding: 0.8rem
+  padding: 0.8rem;
 }
 
 .main-title {
@@ -146,7 +144,7 @@
   background-color: var(--titles-color);
 }
 
-.main-card-container { 
+.main-card-container {
   width: 85%;
   padding: 1.5rem;
   gap: 10px;
@@ -196,7 +194,7 @@
   width: 25%;
 }
 
-.card-title{
+.card-title {
   color: var(--titles-color);
   font-family: var(--number-family), sans-serif;
   font-size: 1.3rem;
@@ -214,4 +212,22 @@
   font-size: 1.1rem;
   color: var(--color-white);
   font-family: var(--number-family);
+}
+
+.main-button-container {
+  width: 65%;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  background-color: var(--titles-color);
+  cursor: pointer;
+}
+
+.main-button {
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-size: 1.15rem;
+  color: var(--color-white);
 }
