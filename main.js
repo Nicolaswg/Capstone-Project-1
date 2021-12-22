@@ -1,3 +1,5 @@
+const speakerContainer = document.querySelector('.speaker-container');
+const speakerButton = document.getElementById('button');
 const menuOpen = document.querySelector('#menu-open');
 const menuClose = document.querySelector('#menu-close');
 const menuBg = document.querySelector('.menu-bg');
@@ -65,11 +67,11 @@ const speakerArr = [{
 // Test card
 const createdCard = () => {
   speakerArr.forEach((_speaker, index) => {
-    const speakerContainer = document.querySelector('.speaker-container');
     const speakerCard = document.createElement('div');
     speakerCard.classList = 'speaker-outfit-container';
     const cardContent = `
-  <div class="border"></div>
+  <div class="border">
+  </div>
         <div class="img-container">
           <img src="${speakerArr[index].image}" alt="speaker">
         </div>
@@ -81,7 +83,12 @@ const createdCard = () => {
   `;
     speakerCard.innerHTML += cardContent;
     speakerContainer.appendChild(speakerCard);
+    if (index >= 2) {
+      speakerCard.classList.add('toogle-speaker-card');
+      speakerButton.addEventListener('click', () => {
+        speakerCard.classList.toggle('toogle-speaker-card');
+      });
+    }
   });
 };
-
 createdCard();
