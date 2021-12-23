@@ -418,11 +418,21 @@ img {
 
 .fas.fa-times {
   position: absolute;
-  top: 20px;
+  top: 100px;
   right: 20px;
   font-size: 1.8rem;
   color: rgb(68, 67, 67);
   cursor: pointer;
+  z-index: 100;
+}
+
+.di {
+  width: 50px;
+  height: 50px;
+  margin-top: 100px;
+  margin-left: 100px;
+  background-color: chartreuse;
+  z-index: 40;
 }
 
 .menu {
@@ -912,7 +922,7 @@ img {
     justify-content: center;
     align-items: center;
     background-size: cover;
-    background-position-y: -400px;
+    background-position-y: -200px;
     padding: 100px 0;
   }
 
