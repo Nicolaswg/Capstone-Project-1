@@ -49,13 +49,20 @@
 ## Authors
 
 👤 **Cindy Shin**
-> Look and **Cindy Info** [Here](https://www.behance.net/adagio07/info)
+> Look at **Cindy Info** [Here](https://www.behance.net/adagio07/info)
 
 👤 **Nicolas Gonzalez**
 
 -Github: [Github](https://github.com/Nicolaswg)
 -LinkedIn: [LinkedIn](https://www.linkedin.com/in/nicolas-gonzalez-8623461a0/)
 -Twitter: [Twitter](https://twitter.com/Nicolas54146830)
+
+## 👋 Contributers
+
+👤 **Zeeshan Haider**
+-Github: [Github](https://github.com/zhadier)
+
+
 
 ## 🤝 Contributing
 

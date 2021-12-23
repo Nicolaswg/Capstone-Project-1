@@ -849,7 +849,7 @@ img {
   }
 
   .home-description {
-    width: 90%;
+    width: 60%;
     padding: 12px;
   }
 
@@ -921,9 +921,9 @@ img {
   .about-container {
     justify-content: center;
     align-items: center;
-    background-size: cover;
-    background-position-y: -200px;
-    padding: 100px 0;
+    background-position-y: -300px;
+    padding-top: 100px;
+    padding-bottom: 200px;
   }
 
   .about-title {
