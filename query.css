@@ -64,6 +64,7 @@ img {
   background: url(src/jean-luc-catarin-0TH0YGKS1iU-unsplash.jpg);
   background-size: cover;
   background-position: center center;
+  overflow: hidden;
 }
 
 .titles-container {
@@ -437,7 +438,7 @@ img {
   flex-direction: column;
   gap: 10px;
   padding-bottom: 20px;
-  background: url(src/calicadoo-ttdio_nOPjQ-unsplash.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(src/calicadoo-ttdio_nOPjQ-unsplash.jpg);
   background-size: cover;
 }
 
@@ -518,8 +519,9 @@ img {
 }
 
 .outfit-description-container {
-  width: 95%;
+  width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -535,12 +537,72 @@ img {
   height: 150px;
   margin: 20px;
   border: solid 1px var(--color-gray);
-  background-color: violet;
 }
 
 .outfit-logo-image img {
   width: 100%;
   height: 100%;
+}
+
+.moda-contest-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 1px var(--color-gray);
+  padding-bottom: 30px;
+}
+
+.moda-contest-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.outfit-shows {
+  width: 80%;
+  height: 150px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  background: linear-gradient(rgba(252, 40, 3, 0.699), rgba(252, 40, 3, 0.699)), url(src/calvin-lupiya-Mx4auh5zO4w-unsplash.jpg);
+  background-size: cover;
+  background-position-y: -50px;
+}
+
+.outfit-shows-b {
+  width: 80%;
+  height: 150px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  background: linear-gradient(rgba(252, 40, 3, 0.699), rgba(252, 40, 3, 0.699)), url(src/tyler-nix-Jg7UTkxTruQ-unsplash.jpg);
+  background-size: cover;
+  background-position-y: -50px;
+}
+
+.show-title {
+  color: var(--color-white);
+  font-family: var(--number-family);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.show-description {
+  color: var(--color-white);
+  font-family: var(--number-family);
+  font-weight: bold;
+  font-size: 0.9rem;
 }
 
 .line2 {
