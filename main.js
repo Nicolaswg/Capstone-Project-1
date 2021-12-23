@@ -1,4 +1,4 @@
-const speakerContainer = document.querySelector('.speaker-container');
+const speakerContainer = document.querySelector('.speaker-outfit-card-container');
 const speakerButton = document.getElementById('button');
 const menuOpen = document.querySelector('#menu-open');
 const menuClose = document.querySelector('#menu-close');
