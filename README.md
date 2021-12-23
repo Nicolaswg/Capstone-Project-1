@@ -2,29 +2,6 @@
 
 >This is the final project of the first module "The Portal"
 
-### Learning Objectives:
-* Use semantic HTML tags.
-* Apply best practices in HTML code.
-* Use CSS selectors correctly.
-* Use CSS box model.
-* Use Flexbox to place elements in the page.
-* Demonstrate ability to create UIs adaptable to different screen sizes using media queries.
-* Use GitHub Pages to deploy web pages.
-* Apply JavaScript best practices and language style guides in code.
-* Use JavaScript to manipulate DOM elements.
-* Use JavaScript events.
-* Use objects to store and access data.
-* Communicate technical concepts to other technical people.
-
-### Project Requirements:
-1. Original Topic.
-2. design Guideline (Colors, Typography, Element position and spaces).
-3. Build Home and About page.
-4. Responsive Design 
-5. Elements interactions
-6. Dynamic page Featured
-
-
 ### Capstone Project Topic
 
 > The topic for this capstone project focused on creating based on the design shared by [Cindy Shin](https://www.behance.net/adagio07), a page related to the best outfits and garments among the most recognized brands in the world. 
