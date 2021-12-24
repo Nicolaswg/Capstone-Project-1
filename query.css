@@ -895,7 +895,9 @@ img {
   .speaker-outfit-card-container {
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 0 50px;
+    padding: 20px;
+    column-gap: 50px;
+    width: 1000px;
   }
 
   .speaker-outfit-container {

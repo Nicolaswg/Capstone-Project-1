@@ -17,24 +17,15 @@
 
 ### Mobile Version
 
-1. **Home Section**
+#### Home Section   
 
-![Screenshot](./src/project1.PNG)
+![Screenshot](./src/project1.PNG) 
+![Screenshot](./src/project2.PNG) 
 
-2. **Mobile Menu**
 
-![Screenshot](./src/project2.PNG)
-
-3. **Main Feature**
-
-![Screenshot](./src/project3.PNG)
-
-4. **Speakers Feature**
+#### About Section
 
 ![Screenshot](./src/project4.PNG)
-
-5. **About Section**
-
 ![Screenshot](./src/project5.PNG)
 
 ### Desktop Version
@@ -46,10 +37,12 @@
 ## Live Page
 -check my web-page: [Capstone-Project](https://nicolaswg.github.io/Nicolas_Microverse_Portfolio/)
 
-## Authors
 
-👤 **Cindy Shin**
-> Look at **Cindy Info** [Here](https://www.behance.net/adagio07/info)
+## Acknowlegments
+
+* Thansk to [Cindy shin](https://www.behance.net/adagio07/info) for the design.
+
+## Authors
 
 👤 **Nicolas Gonzalez**
 
