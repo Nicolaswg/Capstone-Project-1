@@ -35,7 +35,7 @@
 ![Screenshot](./src/projecta.PNG)
 
 ## Live Page
--check my web-page: [Capstone-Project](https://nicolaswg.github.io/Nicolas_Microverse_Portfolio/)
+-check my web-page: [Capstone-Project](https://nicolaswg.github.io/Capstone-Project-1/)
 
 
 ## Acknowlegments
